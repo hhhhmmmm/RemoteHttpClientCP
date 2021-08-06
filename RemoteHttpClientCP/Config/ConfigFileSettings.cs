@@ -1,7 +1,7 @@
 ﻿using System;
 using RemoteHttpClient.Helpers;
 using RemoteHttpClient.Http;
-
+ 
 namespace RemoteHttpClient.Config
 	{
 	/// <summary>
@@ -10,7 +10,7 @@ namespace RemoteHttpClient.Config
 	public class ConfigFileSettings : ConfigFileSettingsBase
 		{
 		#region Конструкторы
-
+ 
 		/// <summary>
 		/// Конструктор
 		/// </summary>
