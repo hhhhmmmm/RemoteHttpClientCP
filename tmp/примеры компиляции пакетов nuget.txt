@@ -1,0 +1,21 @@
+
+-- https://www.mankier.com/1/dotnet-pack
+
+-- RemoteHttpClientCP.Nuspec
+
+nuget update -self
+nuget.exe config -Set repositoryPath="C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\"
+
+-- документация на dotnet pack
+https://www.mankier.com/1/dotnet-pack
+
+-- получается RemoteHttpClientCP.2.1.0.nupkg
+dotnet pack RemoteHttpClientCP.csproj  -c Release --force -o .\ -p:PackageVersion=2.1.0
+
+-- получается RemoteHttpClientCP.20.09.02.0.nupkg
+dotnet pack RemoteHttpClientCP.csproj  -c Release --force -o .\ -p:PackageVersion=20.09.02.0
+
+-- dotnet pack RemoteHttpClientCP.csproj /p:NuspecFile = RemoteHttpClientCP.Nuspec  -c Release --force -o .\  
+
+-- msbuild /t:pack RemoteHttpClientCP.csproj /p:NuspecFile=RemoteHttpClientCP.Nuspec /p:NuspecProperties=<> /p:NuspecBasePath=<Base path>
+

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<package  xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+    <metadata>
+        <id>RemoteHttpClientCP</id>
+        <version>20.09.02.0</version>
+        <title>RemoteHttpClient cross platform library</title>
+        <authors>Andrey Khrenov</authors>
+        <owners>Inary Technologies</owners>
+        <licenseUrl>https://www.inary.ru/terms</licenseUrl>
+        <projectUrl>https://www.inary.ru/getting-started</projectUrl>
+        <iconUrl>https://www.inary.ru/images/errlog_dark_logo.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>RemoteHttpClient is a cross platform library for http requests</description>
+        <releaseNotes>First release</releaseNotes>
+        <copyright>Copyright 2020 Inary Technologies Ltd.</copyright>
+        <dependencies>
+            <dependency id="System.Net.Http" version="4.0.0.0" />
+        </dependencies>
+        <summary>RemoteHttpClient is a cross platform library for http requests</summary>
+    </metadata>
+    <files>
+        <file src="readme.md" target="" />
+    </files>
+</package>
